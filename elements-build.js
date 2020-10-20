@@ -14,4 +14,8 @@ const concat = require('concat');
         './dist/spa-examples/styles.css',
         'elements/styles.css'
     );
+    await fs.copyFile(
+      './dist/spa-examples/favicon.ico',
+      'elements/favicon.ico'
+  );
 })();
