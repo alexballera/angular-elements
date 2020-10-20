@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { DoBootstrap, Injector, NgModule } from '@angular/core';
+import { Injector, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,16 +16,15 @@ import { AngularElementComponent } from './components/angular-element/angular-el
     AppRoutingModule
   ],
   providers: [],
-  // bootstrap: [AppComponent],
-  entryComponents: [AngularElementComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [AppComponent]
 })
 
-export class AppModule implements DoBootstrap {
-  constructor(private injector: Injector) {}
-  ngDoBootstrap(): void {
-    customElements.define(
-      'angular-element',
-      createCustomElement(AngularElementComponent, { injector: this.injector }),
-    );
-  }
+export class AppModule {
+  constructor(private injector: Injector) {
+  const el = createCustomElement(AppComponent, { injector });
+  customElements.define('angular-element', el);
+}
+
+ngDoBootstrap(): void {}
 }

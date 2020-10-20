@@ -1,4 +1,7 @@
 # SpaExamples
+[Tutorial Angular Elements](https://www.moldeointeractive.com.ar/blog/moldeo-interactive-1/post/implementar-angular-elements-635#:~:text=Una%20de%20las%20herramientas%20que,con%20o%20sin%20otros%20frameworks.)
+
+[Tutorial Angular Elements 6 Pasos](https://enmilocalfunciona.io/crea-tu-primer-componente-con-angular-elements-en-6-pasos/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
