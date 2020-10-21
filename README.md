@@ -153,7 +153,7 @@ Para poderlo testear, necesitaremos crear un index.html y añadir nuestro custom
 </head>
 
 <body>  
-    <cejs-elements></cejs-elements>
+    <angular-element></angular-element>
     <script type="text/javascript" src="angular-elements.js"></script>
 </body>
 
