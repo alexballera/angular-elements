@@ -25,15 +25,7 @@ import 'document-register-element';
 ```
 ### Instalamos dependencias necesarias requeridas en el archivo polyfills
 ```
-npm install --save classlist.js
-```
-
-```
-npm install --save web-animations-js
-```
-
-```
-npm install --save document-register-element@1.8.1
+npm install --save classlist.js web-animations-js document-register-element@1.8.1
 ```
 
 ## Configurando Angular Elements
