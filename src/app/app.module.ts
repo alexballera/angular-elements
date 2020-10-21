@@ -15,7 +15,7 @@ import { AngularElementComponent } from './components/angular-element/angular-el
     AppRoutingModule
   ],
   providers: [],
-  // bootstrap: [AppComponent],
+  bootstrap: [AppComponent],
   entryComponents: [AppComponent]
 })
 

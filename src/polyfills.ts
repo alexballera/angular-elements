@@ -51,6 +51,7 @@ import 'web-animations-js';  // Run `npm install --save web-animations-js`.
  *  (window as any).__Zone_enable_cross_context_check = true;
  *
  */
+import './zone-flags';
 
 (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame
 (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick
