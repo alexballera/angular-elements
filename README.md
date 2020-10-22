@@ -138,6 +138,12 @@ Para poder crear el build, deberemos ir al archivo **package.json** y crear un n
 "build:elements": "ng build --prod --output-hashing none && node elements-build.js"
 ```
 
+Y ejecutamos en la terminal:
+
+```sh
+npm run build:elements
+```
+
 ### Testeamos el Angular Element
 Si revisamos las carpetas de nuestro proyecto, podremos ver que se ha creado el compilado normal del proyecto. Pero la que nos interesa, es la carpeta elements. En esta carpeta, está nuestro Angular Element.
 
