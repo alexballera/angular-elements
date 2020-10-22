@@ -184,3 +184,6 @@ Una vez instalada, nos vamos a la carpeta donde tenemos la web sencilla y levant
 cd elements  
 http-server
 ```
+
+Y revisamos en el navegador http://localhost:8080/ 
+
